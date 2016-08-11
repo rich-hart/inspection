@@ -15,6 +15,8 @@ apt-get install python-pythonmagick libpq-dev python-dev libopencv-dev python-op
 pip install pyPdf
 
 ln /dev/null /dev/raw1394 # disable libdc1394 error (cause by unused opencv coedec )
+
+python setup.py install
 ```
 
 Make sure pdfs are decompressed before running script
