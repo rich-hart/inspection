@@ -9,17 +9,11 @@ Ubuntu >= 14.10
 Run as sudo
 
 ```
-apt-get install python-pythonmagick
+apt-get install python-pythonmagick libpq-dev python-dev libopencv-dev python-opencv pdftk 
 
 pip install pyPdf
 
-apt-get install libpq-dev python-dev
-
-apt-get install libopencv-dev python-opencv
-
 ln /dev/null /dev/raw1394 # disable libdc1394 error (cause by unused opencv coedec )
-
-apt-get install pdftk 
 ```
 
 Make sure pdfs are decompressed before running script
