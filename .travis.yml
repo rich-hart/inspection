@@ -4,6 +4,7 @@ python:
 before_install:
 - sudo apt-get install python-pythonmagick libpq-dev python-dev libopencv-dev python-opencv pdftk
 - pip install pyPdf
+- pip install python-magic
 - pip install coverage
 - pip install coveralls
 install:
