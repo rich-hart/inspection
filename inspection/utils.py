@@ -3,7 +3,7 @@ from importlib import import_module
 import inspect
 import numpy
 import pyPdf
-import PythonMagick
+import magic
 import cv2
 import cv
 import numpy
@@ -18,8 +18,8 @@ def load_pdf_page(filepath, page_number):
     if pdf_image_key in images_dict:
         image = images_dict[pdf_image_key]
         return image
-    im = PythonMagick.Image(pdf_image_key)
-    blob = PythonMagick.Blob()
+    im = magic.Image(pdf_image_key)
+    blob = magic.Blob()
     im.write(blob, "png")
     data = numpy.frombuffer(blob.data, dtype='uint8')
     image = cv2.imdecode(data, cv.CV_LOAD_IMAGE_COLOR)

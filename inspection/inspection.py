@@ -11,7 +11,6 @@ from importlib import import_module
 import inspect
 import numpy
 import pyPdf
-import PythonMagick
 import cv2
 import cv
 import numpy

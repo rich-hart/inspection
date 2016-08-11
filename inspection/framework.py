@@ -4,7 +4,6 @@ import cv
 import numpy
 import sys
 import exceptions
-import PythonMagick
 import contextlib
 import utils
 import inspect
