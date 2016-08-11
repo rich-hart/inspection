@@ -2,7 +2,8 @@ Return a list of related pages between two pdfs.
 
 ##### Requirements
 
-Ubuntu >= 14.10 
+* Ubuntu >= 14.10 
+* Python 2.7
 
 ##### Install
 
