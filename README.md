@@ -23,19 +23,23 @@ Make sure pdfs are decompressed before running script
 
 ```pdftk doc.pdf output doc.unc.pdf uncompress```
 
+
+Tests
+
+``python2.7 inspection/test.py``
 ##### Example Usage
 
-``python inspection.py -h``
+``ox_inspect -h``
 
-``python inspection.py data/test/A.pdf data/test/B.pdf``
+``ox_inspect data/test/A.pdf data/test/B.pdf``
 
-``python inspection.py --cases example --include Example1 data/test/A.pdf data/test/F.pdf``
+``ox_inspect --cases example --include Example1 data/test/A.pdf data/test/F.pdf``
 
-``python inspection.py --cases example --include Example2 --exclude DefaultTest data/test/A.pdf data/test/F.pdf``
+``ox_inspect --cases example --include Example2 --exclude DefaultTest data/test/A.pdf data/test/F.pdf``
 
-``python inspection.py --cases example --include Example3 --exclude DefaultTest --check any data/test/A.pdf data/test/F.pdf``
+``ox_inspect --cases example --include Example3 --exclude DefaultTest --check any data/test/A.pdf data/test/F.pdf``
 
-python inspection.py --cases example --include Example1 --check any  data/test/m25.pdf  data/test/m26.pdf 
+``ox_inspect --cases example --include Example1 --check any  data/test/m25.pdf  data/test/m26.pdf ``
 
 ##### Algorithms
 
