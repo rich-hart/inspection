@@ -53,23 +53,3 @@ https://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 
 https://docs.python.org/2/library/unittest.html
 
-##### Functionality Tests
-
-``python -m unittest test``
-
-##### Debugging
-
-Use the ``output.log`` file to see STDOUT of the pdf test execution.  To view the output in realtime open a new terminal screen and use the command ``tail -f output.log``. 
-
-Warning: The python debugger will only be useful in the main function of the inspection.py file. The rest of this program is excuted as a different process, with STDOUT being written to file. Meaning there will be no way to directly interact with the debugger at this time.  
-
-##### Starting instructions
-vagrant up
-vagrant provision
-vagrant ssh  #this will open linux terminal
-cd /vagrant/development/cnx-inspection-v2/inspections
-sudo chown -R vagrant cnx-inspection-v2/
-sudo chgrp -R vagrant cnx-inspection-v2/
-git pull
-
-then run the tests you want.
