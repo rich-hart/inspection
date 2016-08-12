@@ -24,9 +24,10 @@ Make sure pdfs are decompressed before running script
 ```pdftk doc.pdf output doc.unc.pdf uncompress```
 
 
-Tests
+##### Tests
 
 ``python setup.py test``
+
 ##### Example Usage
 
 ``ox_inspect -h``
