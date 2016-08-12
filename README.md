@@ -16,7 +16,7 @@ pip install pyPdf
 
 ln /dev/null /dev/raw1394 # disable libdc1394 error (cause by unused opencv coedec )
 
-python2.7 setup.py install
+python setup.py test
 ```
 
 Make sure pdfs are decompressed before running script
