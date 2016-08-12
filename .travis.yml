@@ -11,7 +11,7 @@ before_install:
 install:
 - python setup.py install
 script:
-- python setup.py test
+- coverage run --source=inspection setup.py test
 notifications:
   email: false
 sudo: true
