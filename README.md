@@ -26,7 +26,7 @@ Make sure pdfs are decompressed before running script
 
 Tests
 
-``python2.7 inspection/test.py``
+``python setup.py test``
 ##### Example Usage
 
 ``ox_inspect -h``
